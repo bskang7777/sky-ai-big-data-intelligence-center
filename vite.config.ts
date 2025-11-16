@@ -207,6 +207,9 @@ function cdnPrefixImages(): Plugin {
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
+    // GitHub Pages project URL: https://bskang7777.github.io/sky-ai-big-data-intelligence-center/
+    // Ensure assets are served from the correct base path in production.
+    base: mode === 'production' ? '/sky-ai-big-data-intelligence-center/' : '/',
     server: {
       host: "::",
       port: 8080,
