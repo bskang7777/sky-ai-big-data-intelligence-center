@@ -17,7 +17,6 @@ export const ServicesSection = () => {
       description: "엔터프라이즈 데이터 레이크, 워크플로우, 메달리온 아키텍처",
       features: ["델타레이크 아키텍처", "실시간 데이터 파이프라인", "메달리온 아키텍처", "Databricks 통합"],
       image: deltaLakeImage,
-      link: "#/services/data-lake"
     },
     {
       icon: Brain,
@@ -25,7 +24,6 @@ export const ServicesSection = () => {
       description: "교육/문서/업무 지식에 특화된 LLM·RAG, 챗봇, 질의응답 서비스",
       features: ["지식 기반 AI", "RAG 시스템", "인텔리전트 챗봇", "AWS Bedrock AI 통합"],
       image: aiRagServiceImage,
-      link: "#/services/ai-rag"
     },
     {
       icon: Activity,
@@ -33,7 +31,6 @@ export const ServicesSection = () => {
       description: "센서/로그/트랜잭션 실시간 수집, 모니터링, 알림",
       features: ["실시간 데이터 수집", "IoT 센서 통합", "실시간 모니터링", "알림 시스템"],
       image: realtimeAnalyticsImage,
-      link: "#/services/realtime-iot"
     },
     {
       icon: TrendingUp,
@@ -41,7 +38,6 @@ export const ServicesSection = () => {
       description: "HFT, 포트폴리오 최적화, 리스크/성과 분석",
       features: ["고빈도 거래", "포트폴리오 최적화", "리스크 분석", "실시간 금융 데이터 분석"],
       image: financeImage,
-      link: "#/services/finance-hft"
     },
     {
       icon: Cloud,
@@ -49,7 +45,6 @@ export const ServicesSection = () => {
       description: "On-Prem → AWS/Azure 전환, DB2/MSDB → Cloud Migration",
       features: ["클라우드 마이그레이션", "AWS/Azure 전환", "데이터베이스 이전"],
       image: cloudMigrationImage,
-      link: "#/services/cloud-migration"
     },
     {
       icon: GraduationCap,
@@ -57,7 +52,6 @@ export const ServicesSection = () => {
       description: "AI 스피커, 발음·문법 평가, 교육용 챗봇, 추천 시스템",
       features: ["교육용 AI", "발음 평가", "Orange3 데이터 마이닝 교육 & 시스템 개발"],
       image: educationImage,
-      link: "#/services/education-ai"
     }
   ];
 

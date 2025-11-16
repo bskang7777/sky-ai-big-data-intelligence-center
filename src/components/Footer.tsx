@@ -25,12 +25,12 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">서비스</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#/services/data-lake" className="hover:text-white transition-colors">Delta Lake</a></li>
-              <li><a href="#/services/ai-rag" className="hover:text-white transition-colors">AI · RAG 서비스</a></li>
-              <li><a href="#/services/realtime-iot" className="hover:text-white transition-colors">실시간 분석 & IoT</a></li>
-              <li><a href="#/services/finance-hft" className="hover:text-white transition-colors">금융·HFT & 자산 배분</a></li>
-              <li><a href="#/services/cloud-migration" className="hover:text-white transition-colors">클라우드 & 마이그레이션</a></li>
-              <li><a href="#/services/education-ai" className="hover:text-white transition-colors">교육 AI & 플랫폼</a></li>
+              <li><span className="block text-gray-400">Delta Lake</span></li>
+              <li><span className="block text-gray-400">AI · RAG 서비스</span></li>
+              <li><span className="block text-gray-400">실시간 분석 & IoT</span></li>
+              <li><span className="block text-gray-400">금융·HFT & 자산 배분</span></li>
+              <li><span className="block text-gray-400">클라우드 & 마이그레이션</span></li>
+              <li><span className="block text-gray-400">교육 AI & 플랫폼</span></li>
               <li>
                 <a
                   href="https://orangedatamining.com/"
