@@ -2,6 +2,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Database, Brain, Activity, TrendingUp, Cloud, GraduationCap } from "lucide-react";
 import orangeImage from "../image/오렌지.png";
 import financeImage from "../image/금융데이터 분석.png";
+import deltaLakeImage from "/images/data_lake_hero_2.png";
+import aiRagServiceImage from "/images/ai_rag_service_1.gif";
+import realtimeAnalyticsImage from "/images/realtime_analytics_1.png";
 
 export const ServicesSection = () => {
   const services = [
@@ -10,8 +13,7 @@ export const ServicesSection = () => {
       title: "Delta Lake",
       description: "엔터프라이즈 데이터 레이크, 워크플로우, 메달리온 아키텍처",
       features: ["델타레이크 아키텍처", "실시간 데이터 파이프라인", "메달리온 아키텍처", "Databricks 통합"],
-      // GitHub Pages 환경에서 base 경로를 고려해 절대 경로(/images)가 아닌 상대 경로 사용
-      image: "images/data_lake_hero_2.png",
+      image: deltaLakeImage,
       link: "#/services/data-lake"
     },
     {
@@ -19,7 +21,7 @@ export const ServicesSection = () => {
       title: "AI · RAG 서비스",
       description: "교육/문서/업무 지식에 특화된 LLM·RAG, 챗봇, 질의응답 서비스",
       features: ["지식 기반 AI", "RAG 시스템", "인텔리전트 챗봇", "AWS Bedrock AI 통합"],
-      image: "images/ai_rag_service_1.gif",
+      image: aiRagServiceImage,
       link: "#/services/ai-rag"
     },
     {
@@ -27,7 +29,7 @@ export const ServicesSection = () => {
       title: "실시간 분석 & IoT",
       description: "센서/로그/트랜잭션 실시간 수집, 모니터링, 알림",
       features: ["실시간 데이터 수집", "IoT 센서 통합", "실시간 모니터링", "알림 시스템"],
-      image: "images/realtime_analytics_1.png",
+      image: realtimeAnalyticsImage,
       link: "#/services/realtime-iot"
     },
     {
