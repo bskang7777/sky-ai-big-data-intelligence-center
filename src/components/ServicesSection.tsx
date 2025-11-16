@@ -1,10 +1,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Database, Brain, Activity, TrendingUp, Cloud, GraduationCap } from "lucide-react";
-import orangeImage from "../image/오렌지.png";
-import financeImage from "../image/금융데이터 분석.png";
-import deltaLakeImage from "/images/data_lake_hero_2.png";
-import aiRagServiceImage from "/images/ai_rag_service_1.gif";
-import realtimeAnalyticsImage from "/images/realtime_analytics_1.png";
+import { publicImage } from "@/lib/publicImage";
+
+const deltaLakeImage = publicImage("data_lake_hero_2.png");
+const aiRagServiceImage = publicImage("ai_rag_service_1.gif");
+const realtimeAnalyticsImage = publicImage("realtime_analytics_1.png");
+const financeImage = publicImage("finance-hft.png");
+const cloudMigrationImage = publicImage("cloud_migration_bedrock.png");
+const educationImage = publicImage("education-ai.png");
 
 export const ServicesSection = () => {
   const services = [
@@ -45,7 +48,7 @@ export const ServicesSection = () => {
       title: "클라우드 & 마이그레이션",
       description: "On-Prem → AWS/Azure 전환, DB2/MSDB → Cloud Migration",
       features: ["클라우드 마이그레이션", "AWS/Azure 전환", "데이터베이스 이전"],
-      image: "images/data_lake_hero_1.jpeg",
+      image: cloudMigrationImage,
       link: "#/services/cloud-migration"
     },
     {
@@ -53,7 +56,7 @@ export const ServicesSection = () => {
       title: "교육 AI & 플랫폼",
       description: "AI 스피커, 발음·문법 평가, 교육용 챗봇, 추천 시스템",
       features: ["교육용 AI", "발음 평가", "Orange3 데이터 마이닝 교육 & 시스템 개발"],
-      image: orangeImage,
+      image: educationImage,
       link: "#/services/education-ai"
     }
   ];

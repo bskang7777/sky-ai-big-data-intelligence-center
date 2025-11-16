@@ -1,4 +1,6 @@
-import deltaLakeImage from "../image/delta lake.png";
+import { publicImage } from "@/lib/publicImage";
+
+const deltaLakeImage = publicImage("hero-delta-lake.png");
 
 export const HeroSection = () => {
   return (
