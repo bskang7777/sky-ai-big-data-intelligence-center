@@ -57,6 +57,31 @@ src/
 └── main.tsx       # Application Entry Point
 ```
 
+## Image Helper Utility (`publicImage`)
+
+- **파일**: `src/lib/publicImage.ts`
+- **함수**: `publicImage(fileName: string): string`
+- **설명**:
+  - `public/images` 폴더에 있는 이미지를 Vite `BASE_URL`(예: GitHub Pages 서브 디렉터리)을 고려해서 안전하게 참조하기 위한 유틸입니다.
+  - 서비스/컴포넌트에서 직접 문자열 경로를 쓰지 않고, 다음과 같이 **파라미터와 함수**로 분리해서 사용합니다.
+
+```ts
+import { publicImage } from "@/lib/publicImage";
+
+const deltaLakeImage = publicImage("data_lake_hero_2.png");
+
+// 예시: ServicesSection
+const services = [
+  {
+    title: "Delta Lake",
+    image: deltaLakeImage,
+    // ...
+  },
+];
+```
+
+이렇게 하면 로컬 개발(`npm run dev`)과 GitHub Pages 배포 환경 모두에서 동일한 코드로 이미지를 안정적으로 불러올 수 있습니다.
+
 ## GitHub & GitHub Pages Deployment
 
 - **1. GitHub 저장소 생성**

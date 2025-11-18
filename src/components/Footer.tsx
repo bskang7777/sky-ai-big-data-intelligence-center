@@ -14,7 +14,10 @@ export const Footer = () => {
               </div>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-            대규모 빅데이터와 AI 분석 기술을 통해 조직의 의사결정을 고도화하는 엔터프라이즈 데이터 혁신 기업입니다.
+              대규모 빅데이터와 AI 분석 기술을 통해 조직의 의사결정을 고도화하는 엔터프라이즈 데이터 혁신 기업입니다.
+            </p>
+            <p className="text-gray-500 text-sm mb-2">
+              AI 기반 데이터 인텔리전스 플랫폼 및 교육 AI 솔루션 관련 특허 출원 진행 중입니다.
             </p>
             <div className="text-sm text-gray-500">
               <p>© 2024 상록에스. All rights reserved.</p>
