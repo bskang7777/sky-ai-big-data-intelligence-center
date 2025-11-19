@@ -10,7 +10,7 @@ export const Footer = () => {
                 상록에스
               </div>
               <div className="ml-2 text-sm text-gray-400">
-                상록 Data Intelligence Center
+                상록 Big Data Intelligence Center
               </div>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">

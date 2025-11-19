@@ -85,7 +85,7 @@ const services = [
 ## GitHub & GitHub Pages Deployment
 
 - **1. GitHub 저장소 생성**
-  - GitHub에서 새 저장소(예: `sky-ai-big-data-intelligence-center`)를 만들고 로컬 프로젝트 루트(`sky AI Big Data Intelligence Center`)에서 다음을 실행합니다:
+  - GitHub에서 새 저장소(예: `sky-ai-big-data-intelligence-center`)를 만들고 로컬 프로젝트 루트(`sky AI Big Big Data Intelligence Center`)에서 다음을 실행합니다:
 
 ```sh
 git init

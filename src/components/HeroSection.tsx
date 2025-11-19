@@ -12,7 +12,7 @@ export const HeroSection = () => {
           <div className="text-center mb-12">
             <h1 className="text-5xl md:text-7xl font-extrabold mb-8 leading-tight">
               <span className="bg-gradient-to-r from-slate-800 via-gray-900 to-slate-700 bg-clip-text text-transparent">상록</span>
-              <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-400 bg-clip-text text-transparent"> Data Intelligence </span>
+              <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-400 bg-clip-text text-transparent"> Big Data Intelligence </span>
               <span className="bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent">Center</span>
             </h1>
 
